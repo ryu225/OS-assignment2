@@ -1,6 +1,6 @@
-public class Main{
+public class main{
 
-public static void main(String[] args){
+public static void Main(String [] args){
 
     System.out.println("Enter Total Memory size in bytes: ");
     System.out.println("Enter total number of blocks: ");
@@ -28,6 +28,6 @@ Block4 850-999 free
            
          firstFit(blockSize, m, processSize, n); 
          besttFit(blockSize, m, processSize, n); 
-         worstFit(blockSize, m, processSize, n); 
+         WorstFit(blockSize, m, processSize, n); 
 }
 }

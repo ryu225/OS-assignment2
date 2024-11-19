@@ -1,14 +1,14 @@
-public class best_Fit{
+public class BestFit{
 static void bestFit(int blockSize[], int m, int processSize[],int n){
 
     int allocated[]= new int[n];
 
     //for(int i=0; i<allocated.length; i++){    
     //}
-
+    int j=0;
     for(int i=0; i<n; i++){
         int emptyPos=-1;
-        for(int j=0; j<m; j++){
+        for(j=0; j<m; j++){
             if(blockSize[j]>= processSize[i]){
                 if(emptyPos==-1)
                     emptyPos=j;
@@ -23,5 +23,6 @@ static void bestFit(int blockSize[], int m, int processSize[],int n){
                 
             }
         }
+        System.out.println("Best fit");
     }
 }

@@ -2,7 +2,7 @@
 public class FirstFit {
 
     
-static void firstFit(int blockSize[], int n, int processSize[],int m){
+public static void firstFit(int blockSize[], int n, int processSize[],int m){
 
     int allocated[]= new int[n];
 
@@ -18,5 +18,6 @@ static void firstFit(int blockSize[], int n, int processSize[],int m){
             }
         }
     }
+    System.out.println("First fit");
 }
 }
