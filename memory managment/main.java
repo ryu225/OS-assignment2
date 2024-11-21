@@ -1,3 +1,4 @@
+import java.util.*;
 public class main{
 
 public static void Main(String [] args){
@@ -26,8 +27,8 @@ Block4 850-999 free
          int m = blockSize.length; 
          int n = processSize.length; 
            
-         firstFit(blockSize, m, processSize, n); 
-         besttFit(blockSize, m, processSize, n); 
-         WorstFit(blockSize, m, processSize, n); 
+         FirstFit.firstFit(blockSize, m, processSize, n); 
+         BestFit.bestFit(blockSize, m, processSize, n); 
+         worstFit.WorstFit(blockSize, m, processSize, n); 
 }
 }

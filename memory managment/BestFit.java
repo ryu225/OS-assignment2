@@ -23,6 +23,6 @@ static void bestFit(int blockSize[], int m, int processSize[],int n){
                 
             }
         }
-        System.out.println("Best fit");
+        System.out.println("Worst fit");
     }
 }
